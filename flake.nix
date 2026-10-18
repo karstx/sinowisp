@@ -54,7 +54,7 @@
 
             meta = with pkgs.lib; {
               description = "A utility for reading and writing flash contents on Sinowealth 8051-based devices";
-              homepage = "https://github.com/carlossless/sinowisp";
+              homepage = "https://github.com/karstx/sinowisp";
               license = licenses.mit;
               mainProgram = "sinowisp";
               maintainers = with maintainers; [ carlossless ];

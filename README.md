@@ -1,6 +1,6 @@
 # sinowisp
 
-[![crate](https://img.shields.io/crates/v/sinowisp.svg)](https://crates.io/crates/sinowisp) [![ci](https://github.com/carlossless/sinowisp/actions/workflows/push.yml/badge.svg)](https://github.com/carlossless/sinowisp/actions/workflows/push.yml)
+[![crate](https://img.shields.io/crates/v/sinowisp.svg)](https://crates.io/crates/sinowisp) [![ci](https://github.com/karstx/sinowisp/actions/workflows/push.yml/badge.svg)](https://github.com/karstx/sinowisp/actions/workflows/push.yml)
 
 _(formerly `sinowealth-kb-tool`)_
 

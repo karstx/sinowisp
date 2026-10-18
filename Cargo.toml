@@ -6,7 +6,7 @@ name = "sinowisp"
 description = """
 A utility for reading and writing flash contents on Sinowealth 8051-based HID devices through the commonly found ISP bootloader
 """
-repository = "https://github.com/carlossless/sinowisp"
+repository = "https://github.com/karstx/sinowisp"
 version = "2.1.0"
 edition = "2021"
 license = "MIT"
