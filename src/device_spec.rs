@@ -190,6 +190,12 @@ pub const DEVICE_GLORIOUS_MODEL_O: DeviceSpec = DeviceSpec {
     ..DEVICE_BASE_SH68F89
 };
 
+pub const DEVICE_IROK_FE75: DeviceSpec = DeviceSpec {
+    vendor_id: 0x258a,
+    product_id: 0x00fc,
+    ..DEVICE_BASE_SH68F90
+};
+
 pub const DEVICE_KZZI_K68PRO: DeviceSpec = DeviceSpec {
     vendor_id: 0x258a,
     product_id: 0x0186,
@@ -419,6 +425,7 @@ pub static DEVICES: Map<&'static str, DeviceSpec> = phf_map! {
     "genesis-thor-300" => DEVICE_GENESIS_THOR_300,
     "genesis-thor-300-rgb" => DEVICE_GENESIS_THOR_300_RGB,
     "glorious-model-o" => DEVICE_GLORIOUS_MODEL_O,
+    "irok-fe75" => DEVICE_IROK_FE75,
     "kzzi-k68pro" => DEVICE_KZZI_K68PRO,
     "leobog-hi75" => DEVICE_LEOBOG_HI75,
     "leobog-hi75c-pro" => DEVICE_LEOBOG_HI75C_PRO,
